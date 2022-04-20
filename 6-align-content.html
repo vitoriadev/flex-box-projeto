@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align content</title>
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item {
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch {
+            align-content: stretch;
+        }
+        .center {
+            align-content: center;
+        }
+        .flex-start {
+            align-content: flex-start;
+        }
+        .flex-end {
+            align-content: flex-end;
+        }
+        .space-between {
+            align-content: space-between;
+        }
+        .space-around {
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch</p>
+    <section class="container stretch">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    <p>Space-between</p>
+    <section class="container space-between">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    <p>Space-around</p>
+    <section class="container space-around">
+        <div class="item">Lorem Ipsum is simply dummy text </div>
+        <div class="item">of the printing and typesetting industry.has been the industry's </div>
+        <div class="item">standard dummy text ever since the 1500</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">t is a long established fact</div>
+        <div class="item">to generate Lorem Ipsum</div>
+        <div class="item">The standard chunk of</div>
+    </section>
+    
+</body>
+</html>
